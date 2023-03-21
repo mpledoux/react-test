@@ -3,3 +3,4 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/mwdcyfxh1g7l/public_html/
     - /bin/cp public/index.html $DEPLOYPATH
+    - /bin/cp -R src $DEPLOYPATH
